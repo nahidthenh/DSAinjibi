@@ -137,4 +137,9 @@ p {
     flex-direction: column;
     justify-content: center;
 }
-
+.hero-area input {
+	border-radius: 4px !important;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px rgba(36, 44, 66, 0.4);
+	height: 60px;
+}
