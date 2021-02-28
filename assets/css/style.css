@@ -1,0 +1,140 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Universilal CSS  */
+.padding-left-6 {
+	/* padding-left: 6%; */
+}
+/* Universilal CSS  END */
+
+
+/* Menu CSS  */
+.main-menu-area {
+	padding: 15px 0px;
+}
+.nav-link {
+	color: #000 !important;
+	line-height: 37px;
+	margin-right: 16px;
+	font-size: 18px;
+	font-family: arial;
+}
+.navbar-brand img {
+	width: 180px;
+}
+.brand-btn {
+	padding: 9px 20px;
+	font-size: 0.9375em;
+	font-weight: 500;
+	line-height: 1.2;
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #44a512;
+	background-color: #44a512;
+    cursor: pointer;
+	color: #fff !important;
+}
+
+
+/* Hero Area  */
+
+.hero-area {
+    /* height: 450px; */
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   background-color: #f3f3f3;
+}
+
+.hero-area h1 {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.28;
+    color: #242c42;
+    margin-bottom: 25px;
+    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.hero-area .feature-text{
+    margin: 0 0 1.875em 0;
+    font-size: 20px;
+    line-height: 1.75;
+    color:#242c42;
+    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.hero-area .form-control {
+    height: 60px;
+    padding-left: 47px;
+    font-size: 18px;
+}
+
+.search-btn-box .icon-search {
+	font-size: 22px;
+	color: black;
+	margin: 13px;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.search-btn-box {
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	top: 5px;
+	z-index: 1000;
+	left: 0;
+	border-top-right-radius: 5px;
+}
+
+
+.left-search-padding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
