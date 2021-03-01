@@ -308,8 +308,12 @@ body{
 
 /* Frontend dashbord css here ! */
 .frn-hero-bg{
-	background-color: #000;
+	/* background-color: #000; */
 	height: 40vh;
+	background-image: url(../img/fnadminbg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .brand-btn.write-review {
 	background: none;
@@ -348,18 +352,25 @@ body{
 	text-decoration: none;
   }
 
-
+  .username {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 7px;
+	color: #738391;
+}
 
 
   	/* side bar menu  */
-
+	  .box-menu ul li a i {
+		color: #7C8C98 !important;
+	}
 .side-bar-box {
 	background: #fff;
 	padding: 30px;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
 	border: 1px solid #e5e5e5;
 	margin-top: -150px;
-	border-radius: 10px;
+	border-radius: 30px;
 }
 .side-bar-box img {
 	height: 100px;
