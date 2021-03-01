@@ -143,3 +143,35 @@ p {
 	border: solid 1px rgba(36, 44, 66, 0.4);
 	height: 60px;
 }
+
+/* explore area  */
+.explore-area {
+	margin-bottom: 55px;
+	padding: 10px 0;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+}
+.explore-area .explore-image {
+	padding-right: 17px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.explore-area .explore-text {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: left;
+}
+.explore-area .explore-title {
+	font-size: 1.125em;
+	font-weight: 500;
+	color: #777777;
+	text-decoration: none;
+}
+.explore-area .explore-title:hover {
+	color: #44a512;
+}
+.explore-area p {
+	font-size: 1em;
+	color: #777777;
+}
