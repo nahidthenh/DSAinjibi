@@ -332,7 +332,7 @@ body{
 	border: 0;
 	border-radius: 50%;
 	height: 35px !important;
-	width: 100%;
+	/* width: 100%; */
 }
 .main-menu-area input {
 	margin-right: 100px !important;
@@ -386,11 +386,31 @@ body{
 .box-menu {
 	padding: 30px;
   }
-  .box-menu ul li a {
+  /* .box-menu ul li a {
 	color: #000;
 	margin: 10px 0px !important;
 	display: block;
+  } */
+
+
+  .box-menu i {
+	display: inline-block;
   }
+  .box-menu h6 {
+	display: inline;
+	margin: 0px 20px;
+  }
+  .box-menu ul li a {
+	text-decoration: none !important;
+	color: #98A4AE;
+}
+.box-menu ul li {
+	margin: 20px 0px;
+}
+.box-menu ul li a h6:hover {
+	color: #1C9EEE !important;
+}
+
 
   .admin-main-content {
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
@@ -399,12 +419,24 @@ body{
 	margin-top: 30px;
 	padding: 50px;
 }
-
+.menu-title i {
+	font-size: 20px;
+	color: #1C9EEE;
+	border-radius: 50% !important;
+}
 .admin-content-title {
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	color: #150f0f;
   }
+
+  .admin-content-title span {
+	text-transform: lowercase;
+	font-size: 14px;
+	margin: 0px 120px;
+	display: inline;
+	color: #6B7C8B;
+}
 
 /*All Page CSS Here END */
 
