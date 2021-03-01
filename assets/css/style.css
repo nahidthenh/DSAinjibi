@@ -48,6 +48,7 @@ body{
 /* Menu CSS  */
 .main-menu-area {
 	padding: 15px 0px;
+	background-color: #ededed;
 }
 .nav-link {
 	color: #000 !important;
@@ -216,21 +217,9 @@ body{
 	padding-top: 166px;
 }
 
-/*All Page CSS Here END */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Section How it work  */
 .section-title {
 	margin: 0;
 	padding-bottom: 20px;
@@ -244,7 +233,14 @@ body{
 	margin-bottom: 30px;
 	display: inline-block;
 }
-
+.ms-works svg {
+    position: absolute;
+    top: 26%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 .ms-works {
     min-height: 585px;
     text-align: center;
@@ -257,7 +253,9 @@ body{
     float: left;
     position: relative;
 }
-
+.even-holder .ms-works-inner {
+    top: 53%;
+}
 .ms-works-holder .ms-works-inner {
 	position: absolute;
 }
@@ -266,9 +264,7 @@ body{
     top: 0;
 }
 
-.even-holder .ms-works-inner {
-    top: 53%;
-}
+
 
 .ms-works-holder.odd-holder .works-content {
     padding-bottom: 20px;
@@ -302,43 +298,89 @@ body{
     padding-bottom: 16px;
     font-size: 20px;
 }
-
 .works-content-info {
     min-height: 65px;
     font-size: 15px;
     line-height: 1.6;
 }
 
-/* .shape-svg-1, .shape-svg-2, .shape-svg-3, .curve-svg {
-    position: relative;
-	}
-	
-    .shape-svg-1 svg {
-	position: absolute;
-	top: 0%;
-	right: 0;
-	z-index: -2;
-    }
-	
-    .shape-svg-2 svg {
-	position: absolute;
-	top: 11%;
-	right: 0;
-	z-index: -2;
-    }
-	
-    .shape-svg-3 svg {
-	position: absolute;
-	top: 15%;
-	right: 0;
-	z-index: -2;
-} */
 
-.ms-works svg {
-    position: absolute;
-    top: 26%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
+
+/* Frontend dashbord css here ! */
+.frn-hero-bg{
+	background-color: #000;
+	height: 40vh;
 }
+.brand-btn.write-review {
+	background: none;
+	color: #000 !important;
+	text-transform: capitalize;
+}
+.brand-btn.write-review:hover {
+	background: #44a512;
+	color: #fff !important;
+	transition: .3s;
+}
+.form-control {
+	border: 1px solid #44a512 !important;
+}
+.nav-link img {
+	border: 0;
+	border-radius: 50%;
+	height: 35px !important;
+	width: 100%;
+}
+.main-menu-area input {
+	margin-right: 100px !important;
+	width: 70% !important;
+}
+
+/* Flower */
+
+.flowers-area {
+	background: #ededed;
+	padding: 15px 0px;
+  }
+  .flowers-area ul li a {
+	float: left;
+	margin: 0px 25px;
+	color: #000;
+	text-decoration: none;
+  }
+
+
+
+
+  	/* side bar menu  */
+
+.side-bar-box {
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+	margin-top: -150px;
+	border-radius: 10px;
+}
+.side-bar-box img {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto !important;
+	display: block;
+	border-radius: 50%;
+}
+
+/*All Page CSS Here END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
