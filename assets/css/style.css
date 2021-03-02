@@ -47,7 +47,7 @@ body{
 
 /* Menu CSS  */
 .main-menu-area {
-	padding: 15px 0px;
+	/* padding: 15px 0px; */
 	background-color: #ededed;
 }
 .nav-link {
@@ -433,10 +433,14 @@ body{
   .admin-content-title span {
 	text-transform: lowercase;
 	font-size: 14px;
-	margin: 0px 120px;
+	margin: 0px 25px;
 	display: inline;
 	color: #6B7C8B;
 }
+.admin-content-text {
+	color: #697A89;
+}
+
 
 /*All Page CSS Here END */
 
