@@ -178,6 +178,134 @@ body{
 }
 
 
+
+/* lawyears Profile area  */
+
+
+.lawyers-title {
+	color: #344763;
+	margin: 20px 0px;
+}
+.lawyers-title span {
+	color: #55BC7E;
+}
+.lawyers-title-content {
+	margin: 30px 0px;
+	color: #344763;
+}
+.section-gap {
+	margin: 160px 0px;
+}
+
+.lawyers-box {
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+.lawyers-box:hover {
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	border-radius: 10px;
+	background: #344763;
+	transition: .5s;
+	color: #fff !important;
+	cursor: pointer;
+}
+.lawyers-box.active {
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	border-radius: 10px;
+	background: #344763;
+	transition: .5s;
+	color: #fff !important;
+	cursor: pointer;
+}
+.lawyers-name span.active {
+	color: #55BC7E;
+	/* transition: .5s; */
+}
+
+
+.lawyers-profile {
+	display: inline-flex;
+}
+.lawyers-profile img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+
+
+.lawyers-name {
+	font-weight: bold;
+	margin: 20px;
+	font-size: 20px;
+	margin-top: 8px;
+	/* color: #241953; */
+}
+.lawyers-name span {
+	margin-left: 70px;
+	color:#55BC7E;
+}
+.lawyers-exprience {
+	color: #D4D4D4;
+	margin: 20px 0px;
+}
+.lawyers-exprience span {
+	float: right;
+	color: #FF9066;
+	background: #FFEEE6;
+	padding: 7px;
+	font-size: 12px;
+	border-radius: 10px;
+	margin-top: -4px;
+	margin-right: 16px;
+}
+.far.fa-bookmark {
+	background: #ededed;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.lawyers-contnet {
+	color: #D4D4D4;
+	margin: 15px 0px;
+}
+.hire-lawyers.btn.btn-success {
+	border: 0;
+	background: none;
+	color: #55BC7E;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.lawyers-name span:hover {
+	color: #55BC7E;
+	transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*All Page CSS Here Start */
 
 /* Brands Page  */
@@ -371,10 +499,10 @@ body{
 
 .new-customar {
 	padding: 100px 0px;
-  }
-  .new-customar h2 {
+}
+.new-customar h2 {
 	margin-top: 75px;
-  }
+}
 
 /* cta area  */
 .cta {
@@ -468,15 +596,15 @@ body{
 .flowers-area {
 	background: #ededed;
 	padding: 15px 0px;
-  }
-  .flowers-area ul li a {
+}
+.flowers-area ul li a {
 	float: left;
 	margin: 0px 25px;
 	color: #000;
 	text-decoration: none;
-  }
+}
 
-  .username {
+.username {
 	text-align: center;
 	font-size: 18px;
 	margin-top: 7px;
@@ -484,10 +612,10 @@ body{
 }
 
 
-  	/* side bar menu  */
-	  .box-menu ul li a i {
-		color: #7C8C98 !important;
-	}
+/* side bar menu  */
+.box-menu ul li a i {
+	color: #7C8C98 !important;
+}
 .side-bar-box {
 	background: #fff;
 	padding: 30px;
@@ -509,22 +637,22 @@ body{
 }
 .box-menu {
 	padding: 30px;
-  }
-  /* .box-menu ul li a {
+}
+/* .box-menu ul li a {
 	color: #000;
 	margin: 10px 0px !important;
 	display: block;
-  } */
+} */
 
 
-  .box-menu i {
+.box-menu i {
 	display: inline-block;
-  }
-  .box-menu h6 {
+}
+.box-menu h6 {
 	display: inline;
 	margin: 0px 20px;
-  }
-  .box-menu ul li a {
+}
+.box-menu ul li a {
 	text-decoration: none !important;
 	color: #98A4AE;
 }
@@ -536,7 +664,7 @@ body{
 }
 
 
-  .admin-main-content {
+.admin-main-content {
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
 	border: 1px solid #e5e5e5;
 	/* height: 50vh; */
@@ -552,9 +680,9 @@ body{
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	color: #150f0f;
-  }
+}
 
-  .admin-content-title span {
+.admin-content-title span {
 	text-transform: lowercase;
 	font-size: 14px;
 	margin: 0px 25px;
