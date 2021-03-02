@@ -57,10 +57,61 @@
         vertical-align: middle;
         display: inherit;
     }
+    .main-menu-area input {
+        margin-right: 0px !important;
+        width: 100px !important;
+    }
+
+    /* Front_End Dashbord page css  */
+    
+    .brand-btn.write-review {
+        background: none;
+        color: #fff !important;
+        text-transform: capitalize;
+    }
+    .menu-title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .username {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 7px;
+        color: #738391;
+        margin-bottom: -25px;
+    }
+    .box-menu h6 {
+        display: inline;
+        margin-left: 20px;
+    }
+    .box-menu {
+        padding: 30px;
+        padding-left: 63px;
+        text-align: left;
+    }
+    .side-bar-box {
+        margin-top: -160px;
+    }
+    .admin-main-content {
+        padding: 20px;
+    }
+
+    .flowers-area {
+        background: #ededed;
+        padding: 15px 0px;
+        display: none;
+    }
+
 }
 /* Mobile Device 320px */
 @media only screen and (max-width: 320px){
+
+
+
     /* Home page  */
+
+
 	.main-menu-area {
         /* padding: 15px 0px; */
         background-color: #000;
@@ -113,6 +164,37 @@
         vertical-align: middle;
         display: inherit;
     }
+
+    /* Front_End Dashbord page css  */
+
+    .menu-title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .username {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 7px;
+        color: #738391;
+        margin-bottom: -25px;
+    }
+    .box-menu h6 {
+        display: inline;
+        margin-left: 20px;
+    }
+    .box-menu {
+        padding: 30px;
+        padding-left: 63px;
+        text-align: left;
+    }
+    .side-bar-box {
+        margin-top: -230px;
+    }
+    .admin-main-content {
+        padding: 20px;
+    }
+
    
 }
 /* Mobile M 375px Device */
@@ -170,9 +252,43 @@
         vertical-align: middle;
         display: inherit;
     }
+
+
+      /* Front_End Dashbord page css  */
+
+      .menu-title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .username {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 7px;
+        color: #738391;
+        margin-bottom: -25px;
+    }
+    .box-menu h6 {
+        display: inline;
+        margin-left: 20px;
+    }
+    .box-menu {
+        padding: 30px;
+        padding-left: 93px;
+        text-align: left;
+    }
+    .side-bar-box {
+        margin-top: -230px;
+    }
+    .admin-main-content {
+        padding: 20px;
+    }
+
+
+
 }
 /* Mobile L 425px Device */
-@media only screen and (max-width: 425px){
+@media only screen and (width: 425px){
 	/* Home Page 425 */
     .main-menu-area {
         /* padding: 15px 0px; */
@@ -226,5 +342,38 @@
         vertical-align: middle;
         display: inherit;
     }
+
+      /* Front_End Dashbord page css  */
+
+      .menu-title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .username {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 7px;
+        color: #738391;
+        margin-bottom: -25px;
+    }
+    .box-menu h6 {
+        display: inline;
+        margin-left: 20px;
+    }
+    .box-menu {
+        padding: 30px;
+        padding-left: 120px;
+        text-align: left;
+    }
+    .side-bar-box {
+        margin-top: -230px;
+    }
+    .admin-main-content {
+        padding: 20px;
+    }
+
+
+
 }
 
