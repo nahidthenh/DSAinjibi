@@ -297,10 +297,7 @@ body{
 }
 
 /* bad review  */
-.bad-review {
-	/* padding: 30px 0px; */
-	/* background: #F5F9FD; */
-}
+
 .divider-line {
 	width: 100px;
 	border-bottom: solid 2px #81209d;
@@ -370,12 +367,31 @@ body{
 	padding-right: 0 !important;
 }
 
+/* new Customar area  */
 
+.new-customar {
+	padding: 100px 0px;
+  }
+  .new-customar h2 {
+	margin-top: 75px;
+  }
 
-
-
-
-
+/* cta area  */
+.cta{
+	background-image: url(../img/client-bg.png);
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff !important;
+	min-height: 576px;
+	text-align: center;
+}
+.divider-line.cta-divider {
+	border-bottom: solid 2px #fff;
+	margin-bottom: 30px;
+	display: inline-block;
+	margin-top: 20px;
+}
 
 
 /* Frontend dashbord css here ! */
