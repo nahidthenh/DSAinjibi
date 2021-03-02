@@ -178,14 +178,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
 /*All Page CSS Here Start */
 
 /* Brands Page  */
@@ -282,7 +274,7 @@ body{
 	background-color: #fff;
 	width: 65px;
 	height: 65px;
-	margin-top: 42px;
+	/* margin-top: 42px; */
 }
 
 .works-icon-holder span img {
@@ -303,6 +295,86 @@ body{
     font-size: 15px;
     line-height: 1.6;
 }
+
+/* bad review  */
+.bad-review {
+	/* padding: 30px 0px; */
+	/* background: #F5F9FD; */
+}
+.divider-line {
+	width: 100px;
+	border-bottom: solid 2px #81209d;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.section-title {
+	margin: 0;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #242c42;
+}
+.section-content {
+	font-size: 18px;
+	color: #333;
+	line-height: 1.6;
+}
+.primary-grad {
+	background-image: linear-gradient(109deg, #3f0050, #81209d);
+}
+.btn-primary {
+	padding: 7px 15px;
+	border-radius: 4px;
+	border: 1px solid #81209d;
+	background-color: #81209d;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 1.6;
+}
+
+
+
+
+
+
+.shape-svg-1, .shape-svg-2, .shape-svg-3, .curve-svg {
+	position: relative;
+	margin-top: 50px;
+}
+.shape-svg-1 svg {
+	position: absolute;
+	top: 0%;
+	right: 0;
+	z-index: -2;
+}
+.section-holder {
+	padding-top: 50px;
+}
+.feature-section-holder {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	align-items: center;
+}
+.image-left .feature-photo {
+	padding-right: 125px;
+}
+.feature-section-holder .feature-photo img {
+	width: 370px;
+}
+.feature-text .section-title {
+	padding-right: 0 !important;
+}
+
+
+
+
+
+
 
 
 
