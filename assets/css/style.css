@@ -354,7 +354,51 @@ body{
 	padding: 15px 35px;
 }
 
+/* Client and review area  */
 
+.review-area {
+	background: #f3f3f3;
+	padding: 50px 0px;
+}
+.review-title {
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	color: #7D8793;
+}
+
+.review-box img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.review-box {
+	box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.15);
+	border: 1px solid #d7d7d7;
+	padding: 30px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.review-hr {
+	width: 100px;
+	border-bottom: solid 2px #d5e225;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.review-content {
+	padding:25px 0px;
+	color: #00000063;
+}
+
+.review-box.text-center h5 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #221751;
+}
+.review-box h6 {
+	color: #00000063;
+}
 
 
 
