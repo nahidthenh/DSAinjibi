@@ -400,6 +400,56 @@ body{
 	color: #00000063;
 }
 
+/* download the apk  */
+.download-apk {
+	background-image: linear-gradient(60deg, #4c84ff , #783dff );
+	padding-top: 50px;
+	color: #fff;
+}
+.down-apk-title {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.down-apk-content{
+	font: 400 16px/28px "Poppins", sans-serif;
+	padding-bottom: 42px;
+	padding-right: 110px;
+}
+.download-btn {
+	color: #fff !important;
+	margin-left: -17px;
+}
+.download-btn a {
+	text-decoration: none;
+	color: #fff !important;
+	border: 1px solid;
+	text-align: center;
+	padding: 15px 20px;
+	margin-left: 20px;
+	border-radius: 12px;
+}
+.download-btn a:hover {
+	background: #fff;
+	color: #000 !important;
+	border: 1px solid #fff;
+	transition: .3s;
+}
+.download-btn a i {
+	margin: 0px 13px;
+}
+.down-apk-header {
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 
