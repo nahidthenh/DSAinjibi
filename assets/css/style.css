@@ -327,10 +327,32 @@ body{
 
 
 
+/* Law farm css  */
 
-
-
-
+.law-farm-job-area {
+	padding: 100px 0px;
+}
+.law-farm-content {
+	padding-top: 100px;
+}
+.law-farm-title {
+	color: #7D8793;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.law-farm-title span {
+	color: #55BC7E;
+}
+.law-farm-text {
+	color: #B0B0BF;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.law-farm-content button {
+	font-weight: bold;
+	padding: 15px 35px;
+}
 
 
 
