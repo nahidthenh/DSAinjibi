@@ -444,7 +444,7 @@ body{
 }
 /* video play back area  */
 .videoplay-area {
-	background: #f3f3f3;
+	background: #F6F5FF;
 }
 .video-left {
 	max-width: 710px;
@@ -466,6 +466,8 @@ body{
 .video-left p {
 	color: #747474;
 	margin-bottom: 34px;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 .play-button {
 	background: none;
