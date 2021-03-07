@@ -483,7 +483,41 @@ body{
 
 /* Footer area  */
 
+.social-icon.si-dark.si-colored.si-facebook.mb-0 {
+	color: #999;
+	font-size: 50px;
+	padding-top: 25px;
+	display: block;
+}
+.social-icon.si-dark.si-colored.si-rss.mb-0 {
+	color: #999;
+	font-size: 50px;
+	padding-top: 25px;
+	display: block;
+}
+.bottommargin-sm a {
+	color: #999;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.copyright-social-icon {
+	margin-bottom: 11px;
+}
+/* .widget.widget_links.clearfix ul li::before {
+	position: absolute;
+	left: 0;
+	content: "\f105";
+	font-family: 'FontAwesome';
+	color: #0FC382;
+	transition: all 0.3s ease 0s;
+} */
 
+.copyright-social-icon a i {
+	color: #fff;
+	margin: 0px 15px;
+	font-size: 20px;
+}
 .dark #footer, #footer.dark {
 	color: rgba(255,255,255,0.75);
 	background-color: #282828;
@@ -545,7 +579,7 @@ body{
   .widget.widget_links.clearfix ul li {
 	margin: 20px 0px;
   }
-  .widget.widget_links.clearfix ul li::before {
+  /* .widget.widget_links.clearfix ul li::before {
 	text-decoration: none;
 	content: "\e7a5";
 	font-family: font-icons;
@@ -553,7 +587,7 @@ body{
 	position: relative;
 	top: 1px;
 	left: 0;
-}
+} */
 .clearfix::after {
 	display: block;
 	clear: both;
@@ -969,7 +1003,7 @@ body{
 	transition: .3s;
 }
 .form-control {
-	border: 1px solid #44a512 !important;
+	/* border: 1px solid #44a512 !important; */
 }
 .nav-link img {
 	border: 0;
