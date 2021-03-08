@@ -21,6 +21,15 @@
 	==========================================
 */
 
+/* All Display None CSS Start */
+.download-apk {
+  display: none;
+}
+.videoplay-area {
+  display: none;
+}
+/* All Display None CSS END */
+
 .container {
   max-width: 1440px !important;
 }
