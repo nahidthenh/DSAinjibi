@@ -61,8 +61,8 @@ body {
   font-family: arial;
 }
 /* .navbar-brand img {
-	width: 180px;
-} */
+	  width: 180px;
+  } */
 .navbar-brand img {
   max-width: 60%;
 }
@@ -198,7 +198,7 @@ body {
   color: #344763;
 }
 .section-gap {
-  margin: 160px 0px;
+  /* margin: 190px 0px; */
 }
 
 .lawyers-box {
@@ -207,6 +207,7 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 30px;
 }
 .lawyers-box:hover {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
@@ -250,8 +251,10 @@ body {
   /* color: #241953; */
 }
 .lawyers-name span {
-  margin-left: 70px;
+  margin-left: 137px;
   color: #55bc7e;
+  margin-top: -36px;
+  display: block;
 }
 .lawyers-exprience {
   color: #d4d4d4;
@@ -497,13 +500,13 @@ body {
   margin-bottom: 11px;
 }
 /* .widget.widget_links.clearfix ul li::before {
-	position: absolute;
-	left: 0;
-	content: "\f105";
-	font-family: 'FontAwesome';
-	color: #0FC382;
-	transition: all 0.3s ease 0s;
-} */
+	  position: absolute;
+	  left: 0;
+	  content: "\f105";
+	  font-family: 'FontAwesome';
+	  color: #0FC382;
+	  transition: all 0.3s ease 0s;
+  } */
 
 .copyright-social-icon a i {
   color: #fff;
@@ -573,14 +576,14 @@ body {
   margin: 20px 0px;
 }
 /* .widget.widget_links.clearfix ul li::before {
-	text-decoration: none;
-	content: "\e7a5";
-	font-family: font-icons;
-	display: inline-block;
-	position: relative;
-	top: 1px;
-	left: 0;
-} */
+	  text-decoration: none;
+	  content: "\e7a5";
+	  font-family: font-icons;
+	  display: inline-block;
+	  position: relative;
+	  top: 1px;
+	  left: 0;
+  } */
 .clearfix::after {
   display: block;
   clear: both;
@@ -744,7 +747,7 @@ body {
 .category-shadow {
   /* box-shadow: 0 4px 24px 0 rgba(103,151,255,.1),0 12px 64px 0 rgba(103,151,255,.1); */
   /* border-radius: 100px;
-	padding: 24px; */
+	  padding: 24px; */
 }
 .category-card {
   text-align: center;
@@ -1110,10 +1113,10 @@ body {
   padding: 30px;
 }
 /* .box-menu ul li a {
-	color: #000;
-	margin: 10px 0px !important;
-	display: block;
-} */
+	  color: #000;
+	  margin: 10px 0px !important;
+	  display: block;
+  } */
 
 .box-menu i {
   display: inline-block;
